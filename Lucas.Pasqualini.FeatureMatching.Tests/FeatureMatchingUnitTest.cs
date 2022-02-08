@@ -22,9 +22,9 @@ public class FeatureMatchingUnitTest
         var objectImageData = await
             File.ReadAllBytesAsync(Path.Combine(executingPath, "Lucas-Pasqualini-object.jpg"));
         var detectObjectInScenesResults = new ObjectDetection().DetectObjectInScenes(objectImageData, imageScenesData);
-        Assert.Equal("[{\"X\":116,\"Y\":158},{\"X\":87,\"Y\":272},{\"X\":263,\"Y\":294},{\"X\":276,\"Y\":179}]",JsonSerializer.Serialize(detectObjectInScenesResults[0].Points));
+        Assert.Equal("[{\"X\":1501,\"Y\":1732},{\"X\":337,\"Y\":2288},{\"X\":814,\"Y\":3238},{\"X\":1955,\"Y\":2536}]",JsonSerializer.Serialize(detectObjectInScenesResults[0].Points));
 
-        Assert.Equal("[{\"X\":116,\"Y\":158},{\"X\":87,\"Y\":272},{\"X\":263,\"Y\":294},{\"X\":276,\"Y\":179}]",JsonSerializer.Serialize(detectObjectInScenesResults[1].Points));
+        Assert.Equal("[{\"X\":651,\"Y\":1841},{\"X\":1360,\"Y\":2738},{\"X\":1994,\"Y\":2230},{\"X\":1353,\"Y\":1367}]",JsonSerializer.Serialize(detectObjectInScenesResults[1].Points));
     }
     private static string GetExecutingPath()
     {
