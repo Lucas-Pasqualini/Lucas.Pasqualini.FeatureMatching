@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lucas.Pasqualini.FeatureMatching", "Lucas.Pasqualini.FeatureMatching\Lucas.Pasqualini.FeatureMatching.csproj", "{EADC58A6-17F8-4878-9F98-0C2DCE356280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lucas.Pasqualini.FeatureMatching.Tests", "Lucas.Pasqualini.FeatureMatching.Tests\Lucas.Pasqualini.FeatureMatching.Tests.csproj", "{758F5D8E-B3F1-40B7-9D7B-82F49308C910}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EADC58A6-17F8-4878-9F98-0C2DCE356280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EADC58A6-17F8-4878-9F98-0C2DCE356280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EADC58A6-17F8-4878-9F98-0C2DCE356280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EADC58A6-17F8-4878-9F98-0C2DCE356280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{758F5D8E-B3F1-40B7-9D7B-82F49308C910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758F5D8E-B3F1-40B7-9D7B-82F49308C910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758F5D8E-B3F1-40B7-9D7B-82F49308C910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758F5D8E-B3F1-40B7-9D7B-82F49308C910}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
